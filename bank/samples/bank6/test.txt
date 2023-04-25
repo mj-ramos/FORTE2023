@@ -1,6 +1,6 @@
 1. compile commands
 	javac -d ./bin/bank6 ./src/bank6.java
-	javac -d ./bin/bank6 -classpath ./bin/bank6 ../BankTest.java
+	javac -d ./bin/bank6 -classpath ./bin/bank6 ../../test/BankTest.java
 
 2. run commands
 	java -classpath ./bin/bank6 BankTest
