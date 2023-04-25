@@ -1,0 +1,8 @@
+1. compile commands
+	javac -d ./bin/BoundedBuffer2 ./src/BoundedBuffer2.java
+	javac -d ./bin/BoundedBuffer2 -classpath ./bin/BoundedBuffer2 ../../test/Consumer.java
+	javac -d ./bin/BoundedBuffer2 -classpath ./bin/BoundedBuffer2 ../../test/Producer.java
+	javac -d ./bin/BoundedBuffer2 -classpath ./bin/BoundedBuffer2 ../../test/Test.java
+
+2. run commands
+	java -classpath ./bin/BoundedBuffer2 Test

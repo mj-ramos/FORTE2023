@@ -1,0 +1,6 @@
+1. compile commands
+	javac -d ./bin/RWBankBad2 ./src/RWBankBad2.java
+	javac -d ./bin/RWBankBad2 -classpath ./bin/RWBankBad2 ../BankTest.java
+
+2. run commands
+	java -classpath ./bin/RWBankBad2 BankTest

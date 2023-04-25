@@ -1,0 +1,6 @@
+1. compile commands
+	javac -d ./bin/noLockOnAccount ./src/noLockOnAccount.java
+	javac -d ./bin/noLockOnAccount -classpath ./bin/noLockOnAccount ../BankTest.java
+
+2. run commands
+	java -classpath ./bin/noLockOnAccount BankTest

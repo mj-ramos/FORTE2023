@@ -1,0 +1,6 @@
+1. compile commands
+	javac -d ./bin/DynamicBankUnsafe ./src/DynamicBankUnsafe.java
+	javac -d ./bin/DynamicBankUnsafe -classpath ./bin/DynamicBankUnsafe ../BankTest.java
+
+2. run commands
+	java -classpath ./bin/DynamicBankUnsafe BankTest

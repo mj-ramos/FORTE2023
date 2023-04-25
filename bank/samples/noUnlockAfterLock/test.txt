@@ -1,0 +1,6 @@
+1. compile commands
+	javac -d ./bin/noUnlockAfterLock ./src/noUnlockAfterLock.java
+	javac -d ./bin/noUnlockAfterLock -classpath ./bin/noUnlockAfterLock ../BankTest.java
+
+2. run commands
+	java -classpath ./bin/noUnlockAfterLock BankTest

@@ -1,0 +1,11 @@
+1. compile commands
+    javac -d ./bin/RacyBank ./src/RacyBank.java
+    javac -d ./bin/RacyBank -classpath ./bin/RacyBank ../BankTest.java 
+
+2. run commands
+	java -classpath ./bin/RacyBank BankTest
+
+
+Issues:
+    - Data race in the `createAccount` method: the account is added to the map after the lock has been released
+    - Data race in the `totalBalance` method: the map is read after the lock has been released

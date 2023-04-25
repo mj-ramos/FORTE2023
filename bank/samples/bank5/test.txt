@@ -1,0 +1,7 @@
+1. compile commands
+	javac -d ./bin/bank5 ./src/bank5.java
+	javac -d ./bin/bank5 -classpath ./bin/bank5 ../BankTest.java
+
+2. run commands
+	java -classpath ./bin/bank5 BankTest
+
