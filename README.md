@@ -2,6 +2,7 @@
 
 ## Java Pathfinder
 Downloaded from https://github.com/javapathfinder/jpf-core/tree/45a4450cd0bd1193df5419f7c9d9b89807d00db6  
+For JPF to work with `java.util.concurrent.locks` follow the instructions here https://groups.google.com/g/java-pathfinder/c/t1n73xdyrFI  
 Used with jdk-8
   
 To execute JPF with one of the samples change to the directory of that sample (for example `cd bank/samples/bank1`), execute the compile commands provided in the test.txt of that directory and run the following command:  
